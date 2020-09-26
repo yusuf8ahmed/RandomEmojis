@@ -6,7 +6,7 @@
 </p>
 
 ## What is the RandomEmojis project?
-Welcome! This project is custom python command line application using the click library built by the dudes that made flask. This application generate random emoji(s) for unwilling users and can even show the emojis link WOW!
+Welcome! This project is a custom python command line application using the click library built by the dudes that made flask. This application generates random emoji(s) and can even show the emojis link. WOW!1!!
 
 ## Getting Started
 

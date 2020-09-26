@@ -37,7 +37,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="randomemojis",
-    version="0.0.1",
+    version="0.1",
     author="Yusuf Ahmed",
     author_email="yusufahmed172@gmail.com",
     packages=find_packages(exclude=['test_files']),
