@@ -34,6 +34,7 @@ Welcome! This project is a custom python command line application using the clic
   Emojis: generates random emojis duh
 
   Options:
-    -l, --link  display generated emoji(s) url
-    --help      Show this message and exit.
+    -l, --link     display generated emoji(s) url
+    -v, --verbose  show verbose messages
+    --help         Show this message and exit.
   ```

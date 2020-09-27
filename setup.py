@@ -24,8 +24,7 @@ with open('requirements.txt') as f:
 #? pypi
 # rm -rf build dist shipapp.egg-info
 # python setup.py sdist bdist_wheel 
-# python -m twine upload --skip-existing dist/*
-# python -m twine upload dist/*
+# twine upload --skip-existing dist/*
 
 #? git steps
 # git init
@@ -37,7 +36,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="randomemojis",
-    version="0.1",
+    version="0.2",
     author="Yusuf Ahmed",
     author_email="yusufahmed172@gmail.com",
     packages=find_packages(exclude=['test_files']),
@@ -72,9 +71,10 @@ setup(
         ],
     entry_points ={ 
         'console_scripts': [ 
-            'emojis = emojis.__main__:main'
+            'emojis = emojis.__main__:cli'
         ] 
     },
+    package_data={'': ['requirements.txt']},
     classifiers=[
         'Development Status :: 3 - Alpha',
         "Programming Language :: Python :: 3",
