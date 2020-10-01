@@ -41,8 +41,7 @@ def emoji_cli(number=1, link=False, verbose=False):
         url = "https://emojipedia.org/"
         r = requests.get("{}random/".format(url))
         root = html.fromstring(r.content)
-        emoji = root.xpath(
-            '/html/body/div[3]/div[1]/article/h1/span/text()')[0]
+        emoji = root.xpath('/html/body/div[2]/div[1]/article/h1/span/text()')[0]
         if verbose:
             click.echo(f"INFO: {len(emoji)}")
 

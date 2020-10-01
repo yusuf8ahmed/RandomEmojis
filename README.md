@@ -3,6 +3,9 @@
     <img src="image/EmojisPython.svg">
     <br>
   </a>
+  <br>
+  
+  [![Downloads](https://pepy.tech/badge/randomemojis)](https://pepy.tech/project/randomemojis)
 </p>
 
 ## What is the RandomEmojis project?
