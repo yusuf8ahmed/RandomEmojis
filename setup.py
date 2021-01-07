@@ -56,7 +56,7 @@ setup(
         "importlib-metadata==1.7.0",
         "iniconfig==1.0.1",
         "loguru==0.5.3",
-        "lxml==4.5.2",
+        "lxml==4.6.2",
         "more-itertools==8.5.0",
         "packaging==20.4",
         "pluggy==0.13.1",
