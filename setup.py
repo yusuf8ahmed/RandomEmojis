@@ -66,7 +66,7 @@ setup(
         "requests==2.24.0",
         "six==1.15.0",
         "toml==0.10.1",
-        "urllib3==1.25.10",
+        "urllib3==1.26.5",
         "zipp==3.1.0"
         ],
     entry_points ={ 
